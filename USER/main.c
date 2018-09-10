@@ -38,8 +38,7 @@ u8 TEXT_Buffer2[2000];
  {	 
 	float v1=0;
 	u16 i=0,k=0,t=0;
-	u8 temperature;  	    
-	u8 humidity; 
+
 	u8 count;
 	u8 dav=51,dan=0;//AD电压和对应的八位数
 	u16 vp=2000,vn=1000;
