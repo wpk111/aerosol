@@ -4,7 +4,6 @@
 #include "stdlib.h"
 #include "math.h"
 #include "24cxx.h" 
-#include "text.h" 
 //////////////////////////////////////////////////////////////////////////////////	 
 //本程序只供学习使用，未经作者许可，不得用于其它任何用途
 //ALIENTEK STM32开发板
@@ -204,25 +203,14 @@ u8 TP_Scan(u8 tp)
 		if(tp_dev.sta&TP_PRES_DOWN)//之前是被按下的
 		{
 			tp_dev.sta&=~(1<<7);//标记按键松开	
-		}
-		
+		}else//之前就没有被按下
+		{
 			tp_dev.x[4]=0;
 			tp_dev.y[4]=0;
 			tp_dev.x[0]=0xffff;
 			tp_dev.y[0]=0xffff;
-			    
+		}	    
 	}
-	
-	
-	
-		
-
-
-	
-	
-	
-	
-	
 	return tp_dev.sta&TP_PRES_DOWN;//返回当前的触屏状态
 }	  
 //////////////////////////////////////////////////////////////////////////	 
@@ -442,9 +430,10 @@ void TP_Adjust(void)
 //       1,进行过校准
 u8 TP_Init(void)
 {	
+	/*
 	if(lcddev.id==0X5510)				//4.3寸电容触摸屏
 	{
-		/*if(GT9147_Init()==0)			//是GT9147
+		if(GT9147_Init()==0)			//是GT9147
 		{ 
 			tp_dev.scan=GT9147_Scan;	//扫描函数指向GT9147触摸屏扫描
 		}else
@@ -454,15 +443,16 @@ u8 TP_Init(void)
 		}
 		tp_dev.touchtype|=0X80;			//电容屏 
 		tp_dev.touchtype|=lcddev.dir&0X01;//横屏还是竖屏 
-		return 0;*/
+		return 0;
 	}else if(lcddev.id==0X1963)			//7寸电容触摸屏
 	{
-		/*FT5206_Init();
+		FT5206_Init();
 		tp_dev.scan=FT5206_Scan;		//扫描函数指向GT9147触摸屏扫描		
 		tp_dev.touchtype|=0X80;			//电容屏 
 		tp_dev.touchtype|=lcddev.dir&0X01;//横屏还是竖屏 
-		return 0;*/
+		return 0;
 	}else
+	*/
 	{
 	  GPIO_InitTypeDef  GPIO_InitStructure;
 

@@ -3,7 +3,7 @@
 ..\obj\show.o: ..\SYSTEM\sys\sys.h
 ..\obj\show.o: ..\USER\stm32f10x.h
 ..\obj\show.o: ..\CORE\core_cm3.h
-..\obj\show.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\show.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\show.o: ..\USER\system_stm32f10x.h
 ..\obj\show.o: ..\USER\stm32f10x_conf.h
 ..\obj\show.o: ..\STM32F10x_FWLib\inc\stm32f10x_adc.h
@@ -30,6 +30,6 @@
 ..\obj\show.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
 ..\obj\show.o: ..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h
 ..\obj\show.o: ..\STM32F10x_FWLib\inc\misc.h
-..\obj\show.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\show.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\show.o: ..\HARDWARE\TEXT\text.h
 ..\obj\show.o: ..\HARDWARE\TEXT\fontupd.h

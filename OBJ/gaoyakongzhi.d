@@ -4,7 +4,7 @@
 ..\obj\gaoyakongzhi.o: ..\SYSTEM\sys\sys.h
 ..\obj\gaoyakongzhi.o: ..\USER\stm32f10x.h
 ..\obj\gaoyakongzhi.o: ..\CORE\core_cm3.h
-..\obj\gaoyakongzhi.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\gaoyakongzhi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\gaoyakongzhi.o: ..\USER\system_stm32f10x.h
 ..\obj\gaoyakongzhi.o: ..\USER\stm32f10x_conf.h
 ..\obj\gaoyakongzhi.o: ..\STM32F10x_FWLib\inc\stm32f10x_adc.h
@@ -32,7 +32,7 @@
 ..\obj\gaoyakongzhi.o: ..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h
 ..\obj\gaoyakongzhi.o: ..\STM32F10x_FWLib\inc\misc.h
 ..\obj\gaoyakongzhi.o: ..\HARDWARE\LCD\lcd.h
-..\obj\gaoyakongzhi.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\gaoyakongzhi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\gaoyakongzhi.o: ..\SYSTEM\delay\delay.h
 ..\obj\gaoyakongzhi.o: ..\HARDWARE\KEY\key.h
 ..\obj\gaoyakongzhi.o: ..\HARDWARE\TOUCH\touch.h

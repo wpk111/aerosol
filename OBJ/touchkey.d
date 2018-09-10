@@ -3,7 +3,7 @@
 ..\obj\touchkey.o: ..\SYSTEM\sys\sys.h
 ..\obj\touchkey.o: ..\USER\stm32f10x.h
 ..\obj\touchkey.o: ..\CORE\core_cm3.h
-..\obj\touchkey.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\touchkey.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\touchkey.o: ..\USER\system_stm32f10x.h
 ..\obj\touchkey.o: ..\USER\stm32f10x_conf.h
 ..\obj\touchkey.o: ..\STM32F10x_FWLib\inc\stm32f10x_adc.h
@@ -30,7 +30,7 @@
 ..\obj\touchkey.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
 ..\obj\touchkey.o: ..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h
 ..\obj\touchkey.o: ..\STM32F10x_FWLib\inc\misc.h
-..\obj\touchkey.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\touchkey.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\touchkey.o: ..\HARDWARE\TEXT\text.h
 ..\obj\touchkey.o: ..\HARDWARE\TEXT\fontupd.h
 ..\obj\touchkey.o: ..\SYSTEM\delay\delay.h
